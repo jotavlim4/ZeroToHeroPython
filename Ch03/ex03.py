@@ -46,5 +46,7 @@ def print_grid_4x4_complete():
 #1 
 print_complete_grid()
 
+print()
+
 #2
 print_grid_4x4_complete()
