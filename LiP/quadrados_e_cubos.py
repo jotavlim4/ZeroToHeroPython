@@ -1,0 +1,7 @@
+print("number\tsquare\tcube")
+print(f"{0}\t\t{0**2}\t\t{0**3}")
+print(f"{1}\t\t{1**2}\t\t{1**3}")
+print(f"{2}\t\t{2**2}\t\t{2**3}")
+print(f"{3}\t\t{3**2}\t\t{3**3}")
+print(f"{4}\t\t{4**2}\t\t{4**3}")
+print(f"{5}\t\t{5**2}\t\t{5**3}")
