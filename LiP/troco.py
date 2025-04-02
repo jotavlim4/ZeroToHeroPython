@@ -18,7 +18,7 @@ moedas_50 = troco_moedas // 50
 moedas_10 = (troco_moedas % 50) // 10
 moedas_5 = ((troco_moedas % 50) % 10) // 5
 
-print(f"Venda: R$ {valor_total}\nTroco: R$ {troco:.2f}")
+print(f"Venda: R$ {valor_total:.2f}\nTroco: R$ {troco:.2f}")
 print("Para fazer o troco, entregue:")
 print(f"R$ 20,00 x {notas_20}") 
 print(f"R$ 10,00 x {notas_10}") 
@@ -27,6 +27,6 @@ print(f"R$ 2,00 x {notas_2}")
 print(f"R$ 1,00 x {notas_1}") 
 print(f"R$ 0,50 x {moedas_50}") 
 print(f"R$ 0,10 x {moedas_10}") 
-print(f"R$ 0,05 x {moedas_5}") 
+print(f"R$ 0,05 x {moedas_5}")
 
 
