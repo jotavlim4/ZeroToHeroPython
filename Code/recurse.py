@@ -1,5 +1,6 @@
 def recurse(n, s):
-	""" n: inteiro positivo ou nulo, s valor qualquer
+	""" n: inteiro positivo ou nulo
+		s: valor qualquer
 		retorna a soma de s com os a soma dos n primerios
 		números inteiros positivos 
 	"""
