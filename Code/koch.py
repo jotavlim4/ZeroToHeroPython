@@ -12,6 +12,7 @@ def koch(t, lenght):
 		koch(t, lenght/3)
 		t.left(angle)
 		koch(t, lenght/3)
+
 def snowflake(t, lenght, n):
 	angle = 60
 	for i in range(n):
