@@ -14,3 +14,6 @@ print(f"{x} is divisible by 11 and 12!")
 # estando dentro de um loop infinito, que é interrompido
 # quando o primeiro número com a propriedade procurada é encontrada.
 # podemos fazer usando a instração 'break'
+
+# o 'break' interrompe o loop que ele pertence, logo se for um loop interno
+# isto é, um loop dentro de outro, apenas o interno que será interrompido.
