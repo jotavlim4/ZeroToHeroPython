@@ -15,6 +15,10 @@ def is_prime(n):
 	return True
 
 def mmc(n1, n2):
+	'''
+	recebe dois números inteiros e retorna o menor multiplo
+	comum entre eles dois.
+	'''
 	multiplier = 1
 	maior = max(n1, n2)
 	while n1 > 1 or n2 > 1:
