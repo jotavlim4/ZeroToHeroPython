@@ -9,7 +9,7 @@ def is_prime(n):
 				return False
 	return True
 
-def sophie_german(nc):
+def sophie_german(n):
 	if is_prime(n) and is_prime(2*n + 1):
 		return True
 	return False
