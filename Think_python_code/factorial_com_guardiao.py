@@ -7,7 +7,6 @@ def factorial(n):
 		return None
 	elif n == 0: 
 		return 1
-	else
+	else: 
 		return n * factorial(n - 1)
-
 
