@@ -23,7 +23,7 @@ else:
 		largest = max(x, z)
 		print(largest)
 	else:
-		larges = max(x, y)
+		largest = max(x, y)
 		print(largest)
 
 # solução do livro:
